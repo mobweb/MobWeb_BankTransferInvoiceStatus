@@ -1,0 +1,6 @@
+app/code/community/MobWeb/BankTransferInvoiceStatus app/code/community/MobWeb/BankTransferInvoiceStatus/
+
+app/etc/modules/MobWeb_BankTransferInvoiceStatus.xml app/etc/modules/MobWeb_BankTransferInvoiceStatus.xml
+
+# Clear the cache
+@shell   rm -rf $PROJECT/var/cache/* && echo "Magento Cache cleared"

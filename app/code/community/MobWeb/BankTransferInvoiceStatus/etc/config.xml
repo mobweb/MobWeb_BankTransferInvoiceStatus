@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <MobWeb_BankTransferInvoiceStatus>
+            <version>0.1.0</version>
+        </MobWeb_BankTransferInvoiceStatus>
+    </modules>
+     <global>
+         <models>
+             <payment>
+                 <rewrite>
+                     <method_banktransfer>MobWeb_BankTransferInvoiceStatus_Model_Method_Banktransfer</method_banktransfer>
+                 </rewrite>
+             </payment>
+         </models>
+    </global>
+</config>
